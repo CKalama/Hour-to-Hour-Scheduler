@@ -6,6 +6,7 @@ date = moment().format('LLLL');
 
 //Setting up If Time is equal to date the Color will change. How can I link the Moment to Date? 
 var row = document.getElementsByClassName("row")
+
 if (date == row) {
     $("row").function() {
         $("row").css(".present")
