@@ -1,8 +1,10 @@
 //Setting up Date 
 var date = document.getElementById("currentDay");
 date = moment().format('LLLL');
-    
-document.getElementById('currentDay').innerHTML = "Today is " + date;
+    //document.getElementById('currentDay').innerHTML = "Today is " + date;
+    $('#currentDay').html("Today is " + date)
+//Setting up If Date is
+
     
 
 //Setting up Saving an item to Local Storage
